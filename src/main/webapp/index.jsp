@@ -95,7 +95,7 @@
                         The images you upload <b style="color: blue;">won't be stored 
                         in the server</b>. The image is processed through the user 
                         request and outputs the result directly. You can see the 
-                        code in <a href="https://github.com/j4les/ImageToText">
+                        code in <a href="https://github.com/ajesjdev/PicToText">
                         <b style="color: green;">GitHub</b></a>. Please leave any 
                         reccomendations, suggestions or bugs there too. Thank you!
                     </h4>
