@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&effect=emboss');
+
+body {       
+        color: white;
+        background-image: url('../images/webback.png');       
+        font-family: monospace;
+}
+
+p {
+    font-family: monospace;
+    font-size: 8px;
+    line-height: 1.0;
+}
+
+label {
+    color:black;
+}
+
+h5 {
+    color: #ff8000;
+}
+
+.jumbotron {
+    background-color: #ff8000;
+    font-family: 'Audiowide', cursive;
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;   
+    margin-top: 5px;
+    padding: 10px 0px 10px;
+}
+
+@media screen and ( min-width:1px ) and ( max-width: 779px ) {
+    p { 
+        font-size: 0.7px;
+        line-height: 1.10px; 
+    }
+}
+@media screen and ( min-width:780px ) and ( max-width: 1099px ) {
+    p { 
+        font-size: 1.2px;
+        line-height: 1.3px; 
+    }
+}
+@media screen and ( min-width:1100px ) and ( max-width: 1254px ) {
+    p { 
+        font-size: 2px;
+        line-height: 1; 
+    }
+}
+@media screen and ( min-width: 1255px ) {
+    p { 
+        
+        font-size: 3px;
+        line-height: 1; 
+    }
+}
