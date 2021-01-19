@@ -10,10 +10,10 @@ What it does:
 5. Symbols are chosen thicker or thinner based on the user's choice of dark/white background.
 4. Text is sent to the display JSP, which displays the text with a dark/white background depending on user's choice.
 
-#Important
+## Important
 The images used aren't stored anywhere. The image is processed through the user request and outputs the result directly.
 
-#Things to add / improve:
+## Things to add / improve
 Resizing based on device's width doesn't work properly in some resolutions. The normal behaviour of the text is to put a line break if it reaches the max width, but this messes up the display, so I tried to counter it with CSS, reducing the font size based on user device's width. This doesn't always work as intended.
 
 White background mode doesn't display the text thick enough to be appreciated above the bright background.
