@@ -45,7 +45,7 @@
             <%
                 StringBuilder textPic = (StringBuilder)request.getAttribute("textPicture");               
             %>
-            <p class="displayText"><b><%= textPic %></b></p>
+            <p style="font-size:0.18vw; line-height: 0.2vw;"><b><%= textPic %></b></p>
         </div>
         <br>
         <div class="container-fluid text-center">                       

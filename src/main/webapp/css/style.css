@@ -2,51 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Audiowide&effect=emboss');
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .displayText {
-        font-size: 3px;
-        letter-spacing: 1px;
-        line-height: 1px;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    .displayText {
-        font-size: 3px;
-        letter-spacing: 1px;
-        line-height: 1px;
-    }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    .displayText {
-        font-size: 3px;
-        letter-spacing: 1px;
-        line-height: 1px;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    .displayText {
-        font-size: 3px;
-        letter-spacing: 1px;
-        line-height: 1px;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .displayText {
-        font-size: 8px;
-        letter-spacing: 1px;
-        line-height: 1px;
-    }
-}
-
 body {       
         color: white;
         background-image: url('../images/webback.png');       
@@ -55,12 +10,6 @@ body {
 
 p {  
     font-family: 'Inconsolata', monospace;   
-}
-
-.displayText {
-    font-size: 3px;
-    letter-spacing: 1px;
-    line-height: 1px;
 }
 
 label {
@@ -80,5 +29,3 @@ h5 {
     margin-top: 5px;
     padding: 10px 0px 10px;
 }
-
-

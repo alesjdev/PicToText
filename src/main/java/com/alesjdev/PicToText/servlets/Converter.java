@@ -100,7 +100,7 @@ public class Converter extends HttpServlet {
             //Saving the Image as an attribute in the request.
             request.setAttribute("textPicture", imgText);
             
-            //We send the result to the JSP that displays it.
+            //Send the result to the JSP that displays it.
             request.getRequestDispatcher("display.jsp").forward(request, response);
                        
         } else { //If there is no picture loaded, it goes to error page.

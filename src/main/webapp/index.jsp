@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -95,7 +95,7 @@
                         The images you upload <b style="color: blue;">won't be stored 
                         in the server</b>. The image is processed through the user 
                         request and outputs the result directly. You can see the 
-                        code in <a href="https://github.com/ajesjdev/PicToText">
+                        code in <a href="https://github.com/alesjdev/PicToText">
                         <b style="color: green;">GitHub</b></a>. Please leave any 
                         reccomendations, suggestions or bugs there too. Thank you!
                     </h4>
