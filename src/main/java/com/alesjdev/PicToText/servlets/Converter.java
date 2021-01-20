@@ -92,15 +92,7 @@ public class Converter extends HttpServlet {
                     /* Except when iterator's at the last pixel of the picture's 
                         width, it adds HTML backspace instead */    
                     } else if(w == picture.getWidth()-1){                                              
-                        imgText.append("<br>");
-                        for(int i=0; i<picture.getWidth(); i++){
-                            imgText.append(" ");
-                            if(i != picture.getWidth()){
-                                imgText.append(" ");
-                            } else {
-                                imgText.append("<br>");
-                            }
-                        }
+                        imgText.append("<br>");                       
                     }                
                 }               
             }
